@@ -11,6 +11,7 @@
         <script src="scripts/jquery.js"></script>
 		<script src="scripts/jquery.split.js"></script>
 		<script src="scripts/jquery.slider.js"></script>
+        <script type='text/javascript' src="http://ajax.aspnetcdn.com/ajax/knockout/knockout-3.1.0.js"></script>
 		<script>
             $(function() {
                 $('div.split-pane').splitPane();
@@ -95,35 +96,18 @@
             <div class="split-pane-component" id="bottom-component">
                 <div class="item" id="news">
                     <h2>Nieuws</h2>
-                    
-                    <div class="nieuwsitem">
-                    	<div class="item_logo"><img src="images/twitter.jpg" /></div>
-                        <div class="item_content">
-                        	<p class="datum">25 apr. 2015 // 00:11</p>
-                            <p class="name"><a href="#">@VerhoevenAstrid</a></p>
-                            <p class="txt">Geen PK voor mij dit jaar, ziektekiemen hebben er anders over beslist. Aan iedereen die deelneemt: veel succes! #PKOVL @ACLebbeke</p>
-                            <p class="button"><a href="#">Volg Astrid</a></p>
+                    <div data-bind="foreach: articles">
+                        <div class="nieuwsitem">
+                        	<div class="item_logo"><img data-bind="attr {src: getTypeImage}"/>
+                            </div>
+                            <div class="item_content">
+                            	<p class="datum" data-bind="text: date"></p>
+                                <p class="name"><a href="#" data-bind="text: name"></a></p>
+                                <p class="txt" data-bind="text: text"></p>
+                                <p class="button"><a href="#">Volg Astrid</a></p>
+                            </div>
                         </div>
                     </div>
-                    <div class="nieuwsitem">
-                    	<div class="item_logo"><img src="images/facebook.jpg" /></div>
-                        <div class="item_content">
-                        	<p class="datum">25 apr. 2015 // 00:11</p>
-                            <p class="name"><a href="#">Astrid Verhoeven</a></p>
-                            <p class="txt">Geen PK voor mij dit jaar, ziektekiemen hebben er anders over beslist. Aan iedereen die deelneemt: veel succes! #PKOVL @ACLebbeke</p>
-                            <p class="button"><a href="#">Volg Astrid</a></p>
-                        </div>
-                    </div>
-                    <div class="nieuwsitem">
-                    	<div class="item_logo"><img src="images/facebook.jpg" /></div>
-                        <div class="item_content">
-                        	<p class="datum">25 apr. 2015 // 00:11</p>
-                            <p class="name"><a href="#">Astrid Verhoeven</a></p>
-                            <p class="txt">Geen PK voor mij dit jaar, ziektekiemen hebben er anders over beslist. Aan iedereen die deelneemt: veel succes! #PKOVL @ACLebbeke</p>
-                            <p class="button"><a href="#">Volg Astrid</a></p>
-                        </div>
-                    </div>
-                </div>
                 <div class="item" id="biografie">
                     <h2>Stap voor stap</h2>
                     
@@ -161,5 +145,6 @@
         </div>
         </div>
     
+      <script type='text/javascript' src="scripts/homepage.js"></script>
     </body>
 </html>
