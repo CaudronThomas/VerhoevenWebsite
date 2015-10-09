@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Astrid Verhoeven</title>
+
+        
+		<link rel="stylesheet" href="scripts/jquery.split.css" />
+		<link rel="stylesheet" href="astrid.css" />
+
+        <script src="scripts/jquery.js"></script>
+		<script src="scripts/jquery.split.js"></script>
+		<script src="scripts/jquery.slider.js"></script>
+		<script>
+            $(function() {
+                $('#container').animate({ 'marginTop': '6%', opacity: 1}, 1200);			
+            });
+        </script>
+        
+    </head>
+    
+    <body>
+    
+    	<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v2.4&appId=498828933613486";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+    
+    	<div id="menu">
+        	<div id="logo">
+        		<a href="index.htm"><img src="images/logo.png" /></a>
+            </div>
+        
+            <nav>
+                <div class="menu-item lebb"><a href="http://www.aclebbeke.be" target="_blank">AC Lebbeke</a></div>
+                <div class="menu-item"><a href="team.htm">Team</a></div>
+                <div class="menu-item"><a href="biografie.htm">Biografie</a></div>
+            </nav>
+        </div>
+        
+        <div id="container" class="emptypage">
+            <!-- START bio-item -->
+            <div class="biografieitem">
+            	
+            </div>
+            <!-- END bio-item -->            
+            
+            <!-- START FB -->
+            <div class="persoon fblike">
+            	<div class="fb-like" data-href="https://www.facebook.com/Astrid-Verhoeven-1013000512067470" data-width="100%" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+            </div>
+            <!-- END FB -->
+            
+        </div>
+    
+    </body>
+</html>

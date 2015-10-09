@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Astrid Verhoeven</title>
+    	        
+		<link rel="stylesheet" href="scripts/jquery.split.css" />
+		<link rel="stylesheet" href="astrid.css" />
+
+        <script src="scripts/jquery.js"></script>
+		<script src="scripts/jquery.split.js"></script>
+		<script src="scripts/jquery.slider.js"></script>
+		<script>
+            $(function() {
+                $('div.split-pane').splitPane();
+				
+				$("#aadrink").mouseover(function() {
+					$("#aadrink").attr("src", "images/aadrink.jpg");
+				});
+				$("#aadrink").mouseout(function() {
+					$("#aadrink").attr("src", "images/aadrink_bw.jpg");
+				});
+				
+				$("#gosport").mouseover(function() {
+					$("#gosport").attr("src", "images/gosport.jpg");
+				});
+				$("#gosport").mouseout(function() {
+					$("#gosport").attr("src", "images/gosport_bw.jpg");
+				});
+				
+				$("#lebb").mouseover(function() {
+					$("#lebb").attr("src", "images/lebb.jpg");
+				});
+				$("#lebb").mouseout(function() {
+					$("#lebb").attr("src", "images/lebb_bw.jpg");
+				});
+				
+				$("#pfc").mouseover(function() {
+					$("#pfc").attr("src", "images/pfc.jpg");
+				});
+				$("#pfc").mouseout(function() {
+					$("#pfc").attr("src", "images/pfc_bw.jpg");
+				});
+				
+				$('.bxslider').bxSlider({
+					randomStart: true,
+					speed: 2500,
+					pause: 8000,
+					slideMargin: 0,
+					easing: 'ease-out',
+					responsive: true,
+					touchEnabled: true,
+					pager: false,
+					controls: false,
+					auto: true,
+					mode: 'fade'
+				});
+				
+            });
+        </script>
+        
+    </head>
+    
+    <body>
+    
+    	<div id="menu">
+        	<div id="logo">
+        		<a href="index.htm"><img src="images/logo.png" /></a>
+            </div>
+        
+            <nav>
+                <div class="menu-item lebb"><a href="http://www.aclebbeke.be" target="_blank">AC Lebbeke</a></div>
+                <div class="menu-item"><a href="team.htm">Team</a></div>
+                <div class="menu-item"><a href="biografie.htm">Biografie</a></div>
+            </nav>
+        </div>
+        
+        <div  class="split-pane-frame">
+        <div id="container" class="split-pane horizontal-percent">
+        
+        
+            <div class="split-pane-component" id="top-component">
+                <div class="bxslider">
+                <img src="images/img1.jpg" />
+                <img src="images/img2.jpg" />
+                <img src="images/img3.jpg" />
+                <img src="images/img4.jpg" />
+                <img src="images/img5.jpg" />
+                </div>
+            </div>
+            
+            <div class="split-pane-divider" id="my-divider"></div>
+            
+            <div class="split-pane-component" id="bottom-component">
+                <div class="item" id="news">
+                    <h2>Nieuws</h2>
+                    
+                    <div class="nieuwsitem">
+                    	<div class="item_logo"><img src="images/twitter.jpg" /></div>
+                        <div class="item_content">
+                        	<p class="datum">25 apr. 2015 // 00:11</p>
+                            <p class="name"><a href="#">@VerhoevenAstrid</a></p>
+                            <p class="txt">Geen PK voor mij dit jaar, ziektekiemen hebben er anders over beslist. Aan iedereen die deelneemt: veel succes! #PKOVL @ACLebbeke</p>
+                            <p class="button"><a href="#">Volg Astrid</a></p>
+                        </div>
+                    </div>
+                    <div class="nieuwsitem">
+                    	<div class="item_logo"><img src="images/facebook.jpg" /></div>
+                        <div class="item_content">
+                        	<p class="datum">25 apr. 2015 // 00:11</p>
+                            <p class="name"><a href="#">Astrid Verhoeven</a></p>
+                            <p class="txt">Geen PK voor mij dit jaar, ziektekiemen hebben er anders over beslist. Aan iedereen die deelneemt: veel succes! #PKOVL @ACLebbeke</p>
+                            <p class="button"><a href="#">Volg Astrid</a></p>
+                        </div>
+                    </div>
+                    <div class="nieuwsitem">
+                    	<div class="item_logo"><img src="images/facebook.jpg" /></div>
+                        <div class="item_content">
+                        	<p class="datum">25 apr. 2015 // 00:11</p>
+                            <p class="name"><a href="#">Astrid Verhoeven</a></p>
+                            <p class="txt">Geen PK voor mij dit jaar, ziektekiemen hebben er anders over beslist. Aan iedereen die deelneemt: veel succes! #PKOVL @ACLebbeke</p>
+                            <p class="button"><a href="#">Volg Astrid</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item" id="biografie">
+                    <h2>Stap voor stap</h2>
+                    
+                    <div class="jaar">
+                    	<div class="jaartal">'15</div>
+                        <ul>
+                        	<li class="uitleg">Uitleg over dit jaar kan hier komen met wat tijden en nog vanalle andere dingen!</li>
+                            <li class="ek">7e<sup>e</sup> 3000m Steeple ETC Heraklion (GRE)</li>
+                            <li class="bk">2<sup>e</sup> 3000m Steeple (AC)</li>
+                            <li class="pk">1<sup>e</sup> 1500m (senioren)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="jaar">
+                    	<div class="jaartal">'14</div>
+                        <ul>
+                        	<li class="uitleg">Uitleg over dit jaar kan hier komen met wat tijden en nog vanalle andere dingen!</li>
+                            <li class="ek">23e<sup>e</sup> EK Cross Belgrado (SER)</li>
+                            <li class="bk">2<sup>e</sup> 3000m Steeple (AC)</li>
+                            <li class="pk">1<sup>e</sup> 1500m (senioren)</li>
+                        </ul>
+                    </div>
+                    
+                    <a href="biografie.htm" id="leesmeer">Lees verder &raquo;</a>
+                </div>
+                <div class="item" id="partners">
+                    <div class="subitem"><a href="http://www.aa-drink.com" target="_blank"><img src="images/aadrink_bw.jpg" id="aadrink" /></a></div>
+                    <div class="subitem"><a href="http://www.go-sport-belgium.be/" target="_blank"><img src="images/gosport_bw.jpg" id="gosport" /></a></div>
+                    <div class="subitem"><a href="http://www.aclebbeke.be" target="_blank"><img src="images/lebb_bw.jpg" id="lebb" /></a></div>
+                    <div class="subitem"><a href="http://www.lintermans.be/" target="_blank"><img src="images/pfc_bw.jpg" id="pfc" /></a></div>
+                </div>
+            </div>
+            
+            
+        </div>
+        </div>
+    
+    </body>
+</html>

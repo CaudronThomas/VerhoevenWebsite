@@ -1,0 +1,21 @@
+	@font-face {
+		font-family: 'Din';
+		src: url('fonts/DINWeb.eot');
+		src: url('fonts/DINWeb.eot?#iefix') format('embedded-opentype'),
+			 url('fonts/DINWeb.woff') format('woff'),
+			 url('fonts/DINWeb.ttf') format('truetype'),
+			 url('fonts/DINWeb.svg#Din') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+	
+	@font-face {
+		font-family: 'DinBold';
+		src: url('fonts/DINWeb-Bold.eot');
+		src: url('fonts/DINWeb-Bold.eot?#iefix') format('embedded-opentype'),
+			 url('fonts/DINWeb-Bold.woff') format('woff'),
+			 url('fonts/DINWeb-Bold.ttf') format('truetype'),
+			 url('fonts/DINWeb-Bold.svg#DinBold') format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
