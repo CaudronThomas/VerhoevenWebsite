@@ -1,0 +1,65 @@
+[
+    {
+        "year": "'15",
+        "results": [
+            {
+                "type": "uitleg",
+                "text": "Uitleg over dit jaar kan hier komen met wat tijden en nog vanalle andere dingen!"
+            },
+            {
+                "type": "ek",
+                "text": "7<sup>e</sup> 3000m Steeple ETC Heraklion (GRE)"
+            },
+            {
+                "type": "bk",
+                "text": "2<sup>e</sup> 3000m Steeple (AC)"
+            },
+            {
+                "type": "pk",
+                "text": "1<sup>e</sup> 1500m (senioren)"
+            }
+        ]
+    },
+    {
+        "year": "'14",
+        "results": [
+            {
+                "type": "uitleg",
+                "text": "Uitleg over dit jaar kan hier komen met wat tijden en nog vanalle andere dingen!"
+            },
+            {
+                "type": "ek",
+                "text": "7<sup>e</sup> 3000m Steeple ETC Heraklion (GRE)"
+            },
+            {
+                "type": "bk",
+                "text": "2<sup>e</sup> 3000m Steeple (AC)"
+            },
+            {
+                "type": "pk",
+                "text": "1<sup>e</sup> 1500m (senioren)"
+            }
+        ]
+    },
+    {
+        "year": "'13",
+        "results": [
+            {
+                "type": "uitleg",
+                "text": "Uitleg over dit jaar kan hier komen met wat tijden en nog vanalle andere dingen!"
+            },
+            {
+                "type": "ek",
+                "text": "7<sup>e</sup> 3000m Steeple ETC Heraklion (GRE)"
+            },
+            {
+                "type": "bk",
+                "text": "2<sup>e</sup> 3000m Steeple (AC)"
+            },
+            {
+                "type": "pk",
+                "text": "1<sup>e</sup> 1500m (senioren)"
+            }
+        ]
+    }
+]
