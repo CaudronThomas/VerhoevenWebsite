@@ -110,25 +110,13 @@
                     </div>
                 <div class="item" id="biografie">
                     <h2>Stap voor stap</h2>
-                    
-                    <div class="jaar">
-                    	<div class="jaartal">'15</div>
-                        <ul>
-                        	<li class="uitleg">Uitleg over dit jaar kan hier komen met wat tijden en nog vanalle andere dingen!</li>
-                            <li class="ek">7e<sup>e</sup> 3000m Steeple ETC Heraklion (GRE)</li>
-                            <li class="bk">2<sup>e</sup> 3000m Steeple (AC)</li>
-                            <li class="pk">1<sup>e</sup> 1500m (senioren)</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="jaar">
-                    	<div class="jaartal">'14</div>
-                        <ul>
-                        	<li class="uitleg">Uitleg over dit jaar kan hier komen met wat tijden en nog vanalle andere dingen!</li>
-                            <li class="ek">23e<sup>e</sup> EK Cross Belgrado (SER)</li>
-                            <li class="bk">2<sup>e</sup> 3000m Steeple (AC)</li>
-                            <li class="pk">1<sup>e</sup> 1500m (senioren)</li>
-                        </ul>
+                    <div data-bind="foreach: years">
+                        <div class="jaar">
+                        	<div class="jaartal" data-bind="text: year"></div>
+                            <ul data-bind="foreach: results">
+                            	<li data-bind="attr { class: type}, html: text"></li>
+                            </ul>
+                        </div>
                     </div>
                     
                     <a href="biografie.htm" id="leesmeer">Lees verder &raquo;</a>
