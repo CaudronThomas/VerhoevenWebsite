@@ -131,7 +131,7 @@
 						#partners {background-color: #ececec !important;}
 							#partners .subitem {float: left; width: 48%; margin: 1%; text-align: center;}
 								#partners img {width: 100%; max-width: 240px;}
-					
+
 
 						/* -------------- TEAM ------------- */
 						.persoon {float: left; width: 100%; margin-bottom: 6%; padding-bottom: 6%; border-bottom: 1px solid #EFEFEF;}
@@ -148,6 +148,7 @@
 									.persoon .txt .astridover .tekstballon {float: left; width: 85%; background-color: #f4b5a4; box-sizing: border-box; padding: 2%; min-height: 91px;}
 										.persoon .txt .astridover .tekstballon p {margin-bottom: 0px;}
 						.fblike {text-align: center; margin-bottom: 0px;}
+
 
 
 						/* -------------- BIOGRAFIE ------------- */
@@ -209,6 +210,15 @@
 						#menu nav .menu-item {float: left; padding-left: 3%; padding-bottom: 2%; padding-top: 2%;}
 						#menu nav .menu-item a {font-size: 110%;}
 
+					.split-pane-frame,
+					#container {float: left !important; width: 100% !important; height: auto !important; min-height: none !important; overflow: visible !important;}
+						#top-component,
+						.split-pane-divider,
+						.split-pane-resize-shim {display: none; min-height: 0px; bottom: 0;}
+						#news, #biografie, #partners {width: 100% !important; height: auto !important;}
+							.split-pane-component {height: auto !important; position: relative !important;}
+							#bottom-component .item h2 {font-size: 180%;}
+
 					.biopage {box-sizing: border-box; padding: 4%; padding-top: 0px;}
 						.biopage #bio3, .biopage #bio13 {display: none;}
 						.biopage #bio4 ul, .biopage #bio5 ul, .biopage #bio6 ul, .biopage #bio7 ul, .biopage #bio8 ul, .biopage #bio9 ul, .biopage #bio10 ul, .biopage #bio11 ul, .biopage #bio12 ul, .biopage #bio13 ul, .biopage #bio14 ul {margin-top: 0px !important; padding-top: 0px !important; margin-bottom: 10% !important;}
@@ -220,4 +230,7 @@
 						.biopage .item .img img {width: 100%;}
 						.biopage .item .img ul {width: 100% !important; max-width: none !important; margin: 0px !important; padding: 0px !important; padding-top: 6% !important; margin-top: 10% !important; margin-bottom: 6% !important;}
 						.biopage .item .txt p {font-size: 120%; margin-bottom: 15%;}
+
+					.persoon .txt .astridover img {display: none;}
+					.persoon .txt .astridover .tekstballon {width: 100%;}
 				}
