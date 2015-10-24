@@ -11,12 +11,24 @@
                 "text": "7<sup>e</sup> 3000m Steeple ETC Heraklion (GRE)"
             },
             {
+                "type": "ek",
+                "text": "33<sup>e</sup> EK Cross Samokov (BUL)"
+            },
+            {
+                "type": "bk",
+                "text": "1<sup>e</sup> 5000m Steeple (Beloften)"
+            },
+            {
                 "type": "bk",
                 "text": "2<sup>e</sup> 3000m Steeple (AC)"
             },
             {
+                "type": "bk",
+                "text": "3<sup>e</sup> BK veldlopen (U23)"
+            },
+            {
                 "type": "pk",
-                "text": "1<sup>e</sup> 1500m (senioren)"
+                "text": "1<sup>e</sup> PK veldlopen (senioren)"
             }
         ]
     },
@@ -29,36 +41,23 @@
             },
             {
                 "type": "ek",
-                "text": "7<sup>e</sup> 3000m Steeple ETC Heraklion (GRE)"
+                "text": "30<sup>e</sup> EK Cross Belgrado (SER)"
             },
             {
                 "type": "bk",
-                "text": "2<sup>e</sup> 3000m Steeple (AC)"
-            },
-            {
-                "type": "pk",
-                "text": "1<sup>e</sup> 1500m (senioren)"
-            }
-        ]
-    },
-    {
-        "year": "'13",
-        "results": [
-            {
-                "type": "uitleg",
-                "text": "Uitleg over dit jaar kan hier komen met wat tijden en nog vanalle andere dingen!"
-            },
-            {
-                "type": "ek",
-                "text": "7<sup>e</sup> 3000m Steeple ETC Heraklion (GRE)"
+                "text": "1<sup>e</sup> 5000m (JUN)"
             },
             {
                 "type": "bk",
-                "text": "2<sup>e</sup> 3000m Steeple (AC)"
+                "text": "1<sup>e</sup> BK veldlopen (JUN)"
             },
             {
                 "type": "pk",
-                "text": "1<sup>e</sup> 1500m (senioren)"
+                "text": "1<sup>e</sup> 1500m (JUN)"
+            },
+            {
+                "type": "pk",
+                "text": "1<sup>e</sup> PK veldlopen (JUN)"
             }
         ]
     }
