@@ -204,9 +204,15 @@
 						#bio11 .jaartal, #bio12 .jaartal,
 						#bio10 .jaartal, #bio8 .jaartal, #bio9 .jaartal,
 						#bio4 .jaartal, #bio5 .jaartal, #bio6 .jaartal {margin-top: 242px;}
+						#bio2 .txt {padding-left: 12% !important;}
 				}
 
-				@media only screen and (max-width : 700px) {
+				@media only screen and (max-width : 950px) {
+					#bio2 .txt {padding-left: 22% !important;}
+				}
+
+
+				@media only screen and (max-width : 800px) {
 					#menu {position: relative; float: left; margin-bottom: 6%;}
 					#menu #logo {width: 90%;}
 					#menu nav {float: left; width: 91%;}
