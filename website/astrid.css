@@ -137,12 +137,15 @@
 						.persoon {float: left; width: 100%; margin-bottom: 6%; padding-bottom: 6%; border-bottom: 1px solid #EFEFEF;}
 							.persoon:last-child {border-bottom: 0px;}
 							.persoon .img {float: left; width: 22%; padding-right: 5%;}
+								.algemeneinfo .img {width: auto; max-width: 300px; padding-right: 0px;}
 								.persoon .img img {width: 100%; max-width: 200px;}
 							.persoon .txt {float: left; width: 65%;}
+								.algemeneinfo .txt {width: 78%; background-color: #f4b5a4; box-sizing: border-box; padding: 2%;}
 								.persoon .txt h3 {margin: 0px; padding: 0px; font-size: 160%; font-weight: normal; text-transform: uppercase; font-family: DinBold; margin-bottom: 3%; color: #222;}
 									.persoon .txt h3 .small {font-family: Din; font-size: 60%;}
 									.persoon .txt h3 .voornaam {font-family: Din; color: #ec7a5b;}
 								.persoon .txt p {margin: 0px; padding: 0px; line-height: 130%; font-size: 100%; font-family: Din; margin-bottom: 3%; text-align: justify; color: #222;}
+									.persoon .txt .bold {font-weight: bold;}
 								.persoon .txt .astridover {float: left; width: 100%; margin-top: 2%;}
 									.persoon .txt .astridover img {float: left; width: 15%; max-width: 100px;}
 									.persoon .txt .astridover .tekstballon {float: left; width: 85%; background-color: #f4b5a4; box-sizing: border-box; padding: 2%; min-height: 91px;}
@@ -218,6 +221,7 @@
 						#news, #biografie, #partners {width: 100% !important; height: auto !important;}
 							.split-pane-component {height: auto !important; position: relative !important;}
 							#bottom-component .item h2 {font-size: 180%;}
+							#bottom-component .item .item_content {padding-left: 9%; width: 75%;}
 
 					.biopage {box-sizing: border-box; padding: 4%; padding-top: 0px;}
 						.biopage #bio3, .biopage #bio13 {display: none;}
